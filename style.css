@@ -1,7 +1,18 @@
 body {
     margin: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: BaiJamjuree;
     color: rgb(88, 88, 88);
+}
+
+@font-face {
+    font-family: BaiJamjuree;
+    src: url(./BaiJamjuree-Regular.ttf);
+}
+
+@font-face {
+    font-family: BaiJamjuree;
+    src: url(./BaiJamjuree-Bold.ttf);
+    font-weight: bold;
 }
 
 .header {
@@ -56,8 +67,8 @@ h1 {
     top: 1px;
 }
 
-.middle {
-    margin-top: 10%;
+.middle-article {
+    margin-top: 5%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -84,4 +95,31 @@ h1 {
 
 .middle-perks img {
     margin-left: -4%;
+}
+
+.bottom-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
+
+.bottom-article {
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bottom-perks {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.bottom-perks-element {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5%;
+    text-align: center;
 }
