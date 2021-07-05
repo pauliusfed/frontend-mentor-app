@@ -1,5 +1,7 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(88, 88, 88);
 }
 
 .header {
@@ -10,19 +12,76 @@ body {
     flex-direction: column;
 }
 
-.header h1 {
+h1 {
     font-weight: 600;
 }
 
 .header img {
-    margin-top: 1%;
+    margin-top: 4%;
+    margin-bottom: 2%;
     max-width: 100px;
 }
 
-.header-info {
+.info {
+    margin-top: 0;
     max-width: 45%;
     text-align: center;
     font-size: 14pt;
     font-weight: 400;
     color: grey;
+}
+
+.header-button-container {
+    margin-top: 4%;
+}
+
+.buttons {
+    box-shadow: -1px 2px 8px -2px #18dbab;
+    background-color: #18dbab;
+    border-radius: 42px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 18px;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+
+.buttons:hover {
+    opacity: 80%;
+}
+
+.buttons:active {
+    position: relative;
+    top: 1px;
+}
+
+.middle {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.middle-perks {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+.middle-perks-info {
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12%;
+    width: 600px;
+}
+
+.middle-perks-info p {
+    text-align: left;
+}
+
+.middle-perks img {
+    margin-left: -4%;
 }
