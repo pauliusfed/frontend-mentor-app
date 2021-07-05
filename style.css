@@ -226,13 +226,14 @@ h1 {
         margin-bottom: 20%;
     }
     .middle-perks-info p.info {
+        max-width: 360px;
         white-space: normal;
         overflow: auto;
         text-overflow: clip;
         text-align: center;
     }
     .bottom-img img {
-        max-width: 375px;
+        max-width: 360px;
     }
     .bottom-article {
         margin: 20%;
